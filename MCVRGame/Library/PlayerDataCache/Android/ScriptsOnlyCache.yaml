@@ -1,0 +1,2097 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp.dll:
+    - BNG.AmmoDispenser
+    - BNG.AmmoDisplay
+    - BNG.Arrow
+    - BNG.ArrowGrabArea
+    - BNG.AutoPoser
+    - BNG.BNGPlayerController
+    - BNG.Bow
+    - BNG.BowArm
+    - BNG.Bullet
+    - BNG.BulletHole
+    - BNG.BulletInsert
+    - BNG.Button
+    - BNG.CharacterIK
+    - BNG.Climbable
+    - BNG.CollisionSound
+    - BNG.ConstrainLocalPosition
+    - BNG.ControllerOffsetHelper
+    - BNG.CustomCenterOfMass
+    - BNG.DamageCollider
+    - BNG.Damageable
+    - BNG.DemoCube
+    - BNG.DemoScript
+    - BNG.DestroyObjectWithDelay
+    - BNG.DetachableLimb
+    - BNG.DoorHelper
+    - BNG.DrawerSound
+    - BNG.EditorHandle
+    - BNG.Explosive
+    - BNG.FPSText
+    - BNG.FingerTipCollider
+    - BNG.FollowRigidbody
+    - BNG.FollowTransform
+    - BNG.GrabAction
+    - BNG.GrabPoint
+    - BNG.GrabPointTrigger
+    - BNG.Grabbable
+    - BNG.GrabbableBezierLine
+    - BNG.GrabbableChild
+    - BNG.GrabbableHaptics
+    - BNG.GrabbableRingHelper
+    - BNG.GrabbableUnityEvents
+    - BNG.GrabbablesInTrigger
+    - BNG.Grabber
+    - BNG.GrabberArea
+    - BNG.GrappleShot
+    - BNG.HandCollision
+    - BNG.HandController
+    - BNG.HandJet
+    - BNG.HandModelSelector
+    - BNG.HandModelSwitcher
+    - BNG.HandPhysics
+    - BNG.HandPose
+    - BNG.HandPoser
+    - BNG.HandRepresentationHelper
+    - BNG.HandleGFXHelper
+    - BNG.HandleHelper
+    - BNG.HeadCollisionFade
+    - BNG.HeadCollisionMove
+    - BNG.HingeHelper
+    - BNG.IKDummy
+    - BNG.IgnoreColliders
+    - BNG.InputBridge
+    - BNG.InvalidTeleportArea
+    - BNG.JointBreaker
+    - BNG.JointHelper
+    - BNG.JoystickControl
+    - BNG.LaserPointer
+    - BNG.LaserSword
+    - BNG.Lever
+    - BNG.LineToTransform
+    - BNG.LocomotionManager
+    - BNG.LookAtTransform
+    - BNG.MagazineSlide
+    - BNG.Marker
+    - BNG.MoveToWaypoint
+    - BNG.MovingPlatform
+    - BNG.PlayerClimbing
+    - BNG.PlayerGravity
+    - BNG.PlayerMovingPlatformSupport
+    - BNG.PlayerRotation
+    - BNG.PlayerTeleport
+    - BNG.PointerEvents
+    - BNG.Projectile
+    - BNG.ProjectileLauncher
+    - BNG.PunctureCollider
+    - BNG.RagdollHelper
+    - BNG.RaycastWeapon
+    - BNG.RemoteGrabber
+    - BNG.RingHelper
+    - BNG.RotateWithHMD
+    - BNG.ScaleBetweenPoints
+    - BNG.ScaleMaterialHelper
+    - BNG.SceneLoader
+    - BNG.ScreenFader
+    - BNG.SkeletonVisualizer
+    - BNG.Slider
+    - BNG.SmoothLocomotion
+    - BNG.SnapZone
+    - BNG.SnapZoneOffset
+    - BNG.SnapZoneRingHelper
+    - BNG.SnapZoneScale
+    - BNG.StaticBatch
+    - BNG.SteeringWheel
+    - BNG.TeleportDestination
+    - BNG.TeleportPlayerOnEnter
+    - BNG.TimeController
+    - BNG.ToggleActiveOnInputAction
+    - BNG.Tooltip
+    - BNG.TrackedDevice
+    - BNG.UIButtonCollider
+    - BNG.UICanvasGroup
+    - BNG.UIPointer
+    - BNG.UITrigger
+    - BNG.VRCanvas
+    - BNG.VREmulator
+    - BNG.VRKeyboard
+    - BNG.VRKeyboardKey
+    - BNG.VRTextInput
+    - BNG.VRUISystem
+    - BNG.VRUtils
+    - BNG.VehicleController
+    - BNG.Waypoint
+    - BNG.WeaponSlide
+    - BNG.Zipline
+    Unity.InputSystem.dll:
+    - UnityEngine.InputSystem.InputActionAsset
+    - UnityEngine.InputSystem.InputActionReference
+    - UnityEngine.InputSystem.InputSettings
+    - UnityEngine.InputSystem.InputSystemObject
+    - UnityEngine.InputSystem.RemoteInputPlayerConnection
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.XR.Management.Editor.dll:
+    - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
+    Unity.XR.Management.dll:
+    - UnityEngine.XR.Management.XRGeneralSettings
+    - UnityEngine.XR.Management.XRManagerSettings
+    Unity.XR.Oculus.dll:
+    - Unity.XR.Oculus.OculusLoader
+    - Unity.XR.Oculus.OculusSettings
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.HorizontalLayoutGroup
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.InputField
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
+    - UnityEngine.UI.Slider
+    - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
+    - UnityEngine.UI.VerticalLayoutGroup
+  sceneClasses:
+    Assets/BNG Framework/Scenes/XR Demo.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 59
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 84
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 96
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1494}
+    - Class: 114
+      Script: {instanceID: 1594}
+    - Class: 114
+      Script: {instanceID: 1654}
+    - Class: 114
+      Script: {instanceID: 1668}
+    - Class: 114
+      Script: {instanceID: 1994}
+    - Class: 114
+      Script: {instanceID: 2290}
+    - Class: 114
+      Script: {instanceID: 2404}
+    - Class: 114
+      Script: {instanceID: 2540}
+    - Class: 114
+      Script: {instanceID: 2586}
+    - Class: 114
+      Script: {instanceID: 2734}
+    - Class: 114
+      Script: {instanceID: 2816}
+    - Class: 114
+      Script: {instanceID: 3064}
+    - Class: 114
+      Script: {instanceID: 3096}
+    - Class: 114
+      Script: {instanceID: 3408}
+    - Class: 114
+      Script: {instanceID: 3530}
+    - Class: 114
+      Script: {instanceID: 3716}
+    - Class: 114
+      Script: {instanceID: 16342}
+    - Class: 114
+      Script: {instanceID: 16344}
+    - Class: 114
+      Script: {instanceID: 16346}
+    - Class: 114
+      Script: {instanceID: 16348}
+    - Class: 114
+      Script: {instanceID: 16352}
+    - Class: 114
+      Script: {instanceID: 16356}
+    - Class: 114
+      Script: {instanceID: 16358}
+    - Class: 114
+      Script: {instanceID: 16360}
+    - Class: 114
+      Script: {instanceID: 16362}
+    - Class: 114
+      Script: {instanceID: 16364}
+    - Class: 114
+      Script: {instanceID: 16366}
+    - Class: 114
+      Script: {instanceID: 16372}
+    - Class: 114
+      Script: {instanceID: 16374}
+    - Class: 114
+      Script: {instanceID: 16378}
+    - Class: 114
+      Script: {instanceID: 16380}
+    - Class: 114
+      Script: {instanceID: 16382}
+    - Class: 114
+      Script: {instanceID: 16384}
+    - Class: 114
+      Script: {instanceID: 16388}
+    - Class: 114
+      Script: {instanceID: 16390}
+    - Class: 114
+      Script: {instanceID: 16392}
+    - Class: 114
+      Script: {instanceID: 16394}
+    - Class: 114
+      Script: {instanceID: 16396}
+    - Class: 114
+      Script: {instanceID: 16400}
+    - Class: 114
+      Script: {instanceID: 16402}
+    - Class: 114
+      Script: {instanceID: 16404}
+    - Class: 114
+      Script: {instanceID: 16406}
+    - Class: 114
+      Script: {instanceID: 16410}
+    - Class: 114
+      Script: {instanceID: 16416}
+    - Class: 114
+      Script: {instanceID: 16420}
+    - Class: 114
+      Script: {instanceID: 16422}
+    - Class: 114
+      Script: {instanceID: 16424}
+    - Class: 114
+      Script: {instanceID: 16426}
+    - Class: 114
+      Script: {instanceID: 16428}
+    - Class: 114
+      Script: {instanceID: 16430}
+    - Class: 114
+      Script: {instanceID: 16432}
+    - Class: 114
+      Script: {instanceID: 16434}
+    - Class: 114
+      Script: {instanceID: 16436}
+    - Class: 114
+      Script: {instanceID: 16438}
+    - Class: 114
+      Script: {instanceID: 16442}
+    - Class: 114
+      Script: {instanceID: 16444}
+    - Class: 114
+      Script: {instanceID: 16446}
+    - Class: 114
+      Script: {instanceID: 16448}
+    - Class: 114
+      Script: {instanceID: 16452}
+    - Class: 114
+      Script: {instanceID: 16454}
+    - Class: 114
+      Script: {instanceID: 16456}
+    - Class: 114
+      Script: {instanceID: 16458}
+    - Class: 114
+      Script: {instanceID: 16462}
+    - Class: 114
+      Script: {instanceID: 16466}
+    - Class: 114
+      Script: {instanceID: 16470}
+    - Class: 114
+      Script: {instanceID: 16472}
+    - Class: 114
+      Script: {instanceID: 16474}
+    - Class: 114
+      Script: {instanceID: 16476}
+    - Class: 114
+      Script: {instanceID: 16478}
+    - Class: 114
+      Script: {instanceID: 16482}
+    - Class: 114
+      Script: {instanceID: 16484}
+    - Class: 114
+      Script: {instanceID: 16486}
+    - Class: 114
+      Script: {instanceID: 16488}
+    - Class: 114
+      Script: {instanceID: 16490}
+    - Class: 114
+      Script: {instanceID: 16492}
+    - Class: 114
+      Script: {instanceID: 16498}
+    - Class: 114
+      Script: {instanceID: 16500}
+    - Class: 114
+      Script: {instanceID: 16502}
+    - Class: 114
+      Script: {instanceID: 16506}
+    - Class: 114
+      Script: {instanceID: 16508}
+    - Class: 114
+      Script: {instanceID: 16510}
+    - Class: 114
+      Script: {instanceID: 16512}
+    - Class: 114
+      Script: {instanceID: 16516}
+    - Class: 114
+      Script: {instanceID: 16520}
+    - Class: 114
+      Script: {instanceID: 16522}
+    - Class: 114
+      Script: {instanceID: 16524}
+    - Class: 114
+      Script: {instanceID: 16526}
+    - Class: 114
+      Script: {instanceID: 16528}
+    - Class: 114
+      Script: {instanceID: 16530}
+    - Class: 114
+      Script: {instanceID: 16532}
+    - Class: 114
+      Script: {instanceID: 16534}
+    - Class: 114
+      Script: {instanceID: 16536}
+    - Class: 114
+      Script: {instanceID: 16540}
+    - Class: 114
+      Script: {instanceID: 16542}
+    - Class: 114
+      Script: {instanceID: 16546}
+    - Class: 114
+      Script: {instanceID: 16548}
+    - Class: 114
+      Script: {instanceID: 16550}
+    - Class: 114
+      Script: {instanceID: 16556}
+    - Class: 114
+      Script: {instanceID: 16562}
+    - Class: 114
+      Script: {instanceID: 16566}
+    - Class: 114
+      Script: {instanceID: 16568}
+    - Class: 114
+      Script: {instanceID: 16570}
+    - Class: 114
+      Script: {instanceID: 16572}
+    - Class: 114
+      Script: {instanceID: 16574}
+    - Class: 114
+      Script: {instanceID: 16576}
+    - Class: 114
+      Script: {instanceID: 16578}
+    - Class: 114
+      Script: {instanceID: 16582}
+    - Class: 114
+      Script: {instanceID: 16586}
+    - Class: 114
+      Script: {instanceID: 16588}
+    - Class: 114
+      Script: {instanceID: 16592}
+    - Class: 114
+      Script: {instanceID: 16598}
+    - Class: 114
+      Script: {instanceID: 16600}
+    - Class: 114
+      Script: {instanceID: 16604}
+    - Class: 114
+      Script: {instanceID: 16610}
+    - Class: 114
+      Script: {instanceID: 16612}
+    - Class: 114
+      Script: {instanceID: 16614}
+    - Class: 114
+      Script: {instanceID: 16618}
+    - Class: 114
+      Script: {instanceID: 16622}
+    - Class: 114
+      Script: {instanceID: 16628}
+    - Class: 114
+      Script: {instanceID: 16630}
+    - Class: 114
+      Script: {instanceID: 16634}
+    - Class: 114
+      Script: {instanceID: 16636}
+    - Class: 114
+      Script: {instanceID: 16640}
+    - Class: 114
+      Script: {instanceID: 16642}
+    - Class: 114
+      Script: {instanceID: 16644}
+    - Class: 114
+      Script: {instanceID: 16646}
+    - Class: 114
+      Script: {instanceID: 16648}
+    - Class: 114
+      Script: {instanceID: 16650}
+    - Class: 114
+      Script: {instanceID: 16652}
+    - Class: 114
+      Script: {instanceID: 16654}
+    - Class: 114
+      Script: {instanceID: 16656}
+    - Class: 114
+      Script: {instanceID: 16658}
+    - Class: 114
+      Script: {instanceID: 16660}
+    - Class: 114
+      Script: {instanceID: 16662}
+    - Class: 114
+      Script: {instanceID: 16664}
+    - Class: 114
+      Script: {instanceID: 16666}
+    - Class: 114
+      Script: {instanceID: 16670}
+    - Class: 114
+      Script: {instanceID: 16672}
+    - Class: 114
+      Script: {instanceID: 16676}
+    - Class: 114
+      Script: {instanceID: 16678}
+    - Class: 114
+      Script: {instanceID: 90498}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 120
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 134
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 138
+      Script: {instanceID: 0}
+    - Class: 143
+      Script: {instanceID: 0}
+    - Class: 144
+      Script: {instanceID: 0}
+    - Class: 145
+      Script: {instanceID: 0}
+    - Class: 146
+      Script: {instanceID: 0}
+    - Class: 153
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 205
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 24c74cc0d527a06113f2b967042769f0
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEditor.XR.LegacyInputHelpers
+    className: CameraOffset
+  - hash:
+      serializedVersion: 2
+      Hash: 5ab533713adae59372fb3e10a585c186
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.UI
+    className: BaseInputOverride
+  - hash:
+      serializedVersion: 2
+      Hash: a6e561615949734e9f12f9b61661f43e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: c24a778d9aa393e11e54bff320ca63de
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem
+    className: PlayerInput
+  - hash:
+      serializedVersion: 2
+      Hash: 04e4a8b0447477cc4e933d9e5311188f
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: ArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: 77aaaaa51f7a8d8ff333a879741e47d2
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 6b2083ba3481347351531f6ae1d70bb2
+    assemblyName: Unity.XR.Oculus.dll
+    namespaceName: Unity.XR.Oculus
+    className: OculusSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 52bcb9c2a78bdd8d98a59e915c346e75
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: TransitionArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: bcaee4c2a83047257b5f47d6ed264b75
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 6bc76e17f0d5e93f3eea7f5a2fe227f3
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: 21a9c6dbf300fc1f6dc15ca7e2c39a37
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 9b06583966b5c25325233c4ef1ab1fd4
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.HID.Editor
+    className: HIDDescriptorWindow
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: f0786811516f7de8befd7a3e181e567a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: d791aa6007fa3640be1164ea75bb087d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 699619b86d9359741a4f58540298c80b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: cd0ecdca0166232906c6f2df9dddc3d3
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: AdvancedDropdownWindow
+  - hash:
+      serializedVersion: 2
+      Hash: f1d735cc1a21c3704ab52568f4fbfcf8
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: c1d728126ff1918728036c59106d32b2
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 295831406da5907d41f58d84acd55d8d
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionEditorWindow
+  - hash:
+      serializedVersion: 2
+      Hash: fc169718e5fd24cea7425f24908c0418
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: PlayerInputManagerEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 5f170942ee57c7a568f5bcfc7521adea
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: EnumerableTestState
+  - hash:
+      serializedVersion: 2
+      Hash: a1aa98c78061c6f03a8c124cda576e67
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: cf9f5cf2c3145a37ac07f00e50e460f9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: fe64a45214940b510a0ec79c96d43498
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: f336e086360abe49a3323e5f1583c35a
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: a74405a4829a834d107a0c6e072719ed
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 760787567e1b60d64a3e421ab83ee14a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: f40fedccd4adbc76605bea6d67537e4b
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: a306e12d896ddcca949923c805691027
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 748dd2a2a28da4e618912da5ac45684b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: f7858108331b563fb41b80b729297acd
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 5dea360fb0b147724ac344e6f399c2f3
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 5d5b0c61f3ab6ff5f41b1bbe19764526
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.OnScreen
+    className: OnScreenButton
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 8e6ceabfd38a184413d69b7db56c89cc
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 69415240821be7986b27e72bf9609a30
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.EnhancedTouch
+    className: TouchSimulation
+  - hash:
+      serializedVersion: 2
+      Hash: 287a4aa7392bcfb309b4d7b4dc89eb3c
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: PlayerInputEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.UI.Editor
+    className: InputSystemUIInputModuleEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd8bf02e3089425d3502e26c44ba31a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionAssetEditor
+  - hash:
+      serializedVersion: 2
+      Hash: d3f29ba27f28c1f558880c4df5545ed3
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: 
+    className: DownloadableSample
+  - hash:
+      serializedVersion: 2
+      Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionImporterEditor
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 76aef43e801605d1829c8805eeee135c
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem
+    className: InputActionReference
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.Oculus.dll
+    namespaceName: Unity.XR.Oculus
+    className: OculusLoader
+  - hash:
+      serializedVersion: 2
+      Hash: d251bf88db6c95a6b1aa0b69298da9ef
+    assemblyName: UnityEngine.SpatialTracking.dll
+    namespaceName: UnityEngine.SpatialTracking
+    className: TrackedPoseDriver
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 98aa0a0c8ff2910eb12af89c7e0eb661
+    assemblyName: Unity.XR.Management.dll
+    namespaceName: UnityEngine.XR.Management
+    className: XRGeneralSettings
+  - hash:
+      serializedVersion: 2
+      Hash: a2612813f45d0ced02c3e4bc9dbea8b4
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: bd3cf68c8964d3c66d1c43f4f98508c9
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: 8ab9295d94483c961936d82d233d3df2
+    assemblyName: Unity.XR.Management.dll
+    namespaceName: UnityEngine.XR.Management
+    className: XRManagerSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 87ff43d2baf3385cba327d8f803a4ebb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: 134322c9293c1896357cce271b819ce4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 6be939d6f0aad748aa63a8815400aaa2
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem
+    className: InputSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 295852e83016219fe0ab9a38fc36f74a
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem
+    className: InputActionAsset
+  - hash:
+      serializedVersion: 2
+      Hash: a81d4c2c1cf3ad164d277d927a193679
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: a5781dc71a671b1ad2b38de19f24b71f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: cd0ecdca0166232906c6f2df9dddc3d3
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionDebuggerWindow
+  - hash:
+      serializedVersion: 2
+      Hash: aba7b2852ef61d175dd9602e7723d5e5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: bfeb96683d3796cadaab890bfdfe92be
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputDebuggerWindow
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: ad4af01eeb7f0a9ae0be2df3e0f1953a
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputStateWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 50d893c48b1c02a4b8ede5fe28ff9e85
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.UI
+    className: TrackedDeviceRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: f17a7afbb6fc4d6b5c3ba20ed1c93f68
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.UI
+    className: InputSystemUIInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 3165968ba45c74472d279ba04455fccb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 908b3077da284d11de0450423ca1808e
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 040dd48e3a027d5424519a5fa2009df4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 0fb27be807aa299702f28ad0bcad1f46
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: ef5c43f921427d03730f6ea4c848f07d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 87ad3705a58f19c47136728d4a6e9c47
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 893dbdbfe611d62e230a686ea89f1efd
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: SwingArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: c1f5356fcd27668ddc25078e27f9828d
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.UI
+    className: MultiplayerEventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: a8afcbd0a467dd957879959591dec288
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.XR
+    className: TrackedPoseDriver
+  - hash:
+      serializedVersion: 2
+      Hash: 6980e81ddc615a861309d2d659cc3760
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 426e5bd616852254b77531cd1a8e29b6
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.OnScreen
+    className: OnScreenStick
+  - hash:
+      serializedVersion: 2
+      Hash: fd68d84f33fad85aac38f2739c0ee270
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: e7a73f5f78ba6445195ec23b74a1ce2d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 285f5d7c369d870b93f4a2cbcec118e4
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputDeviceDebuggerWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 880d064aa7bf32abd8295b0fe07bcc13
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem
+    className: InputSystemObject
+  - hash:
+      serializedVersion: 2
+      Hash: 8220b46879dc5e37db1b940c938f5744
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 21a597af000da536a7adc9efe10b8d5d
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem
+    className: PlayerInputManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 7ab0e790220bdca831fdd886b339039d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: ede3d522ce29a72deb2613abda57d11e
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem
+    className: RemoteInputPlayerConnection
+  - hash:
+      serializedVersion: 2
+      Hash: abf1930d8126d0b2e00e9449129a0190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 07896f0fc3f9d7193bc3b3cb5f0fb489
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: SavePoseBinding
+  - hash:
+      serializedVersion: 2
+      Hash: d1603ad5b6ab3d8986865ae3eae019d7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: Zipline
+  - hash:
+      serializedVersion: 2
+      Hash: 00ccd140c2f2fc20653d1b07f5e96bcd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: BNGPlayerController
+  - hash:
+      serializedVersion: 2
+      Hash: da5ac6aecd8e2469197b4762e71d29f1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: GrabbableChild
+  - hash:
+      serializedVersion: 2
+      Hash: 742d00cbfc95b2729d490c7360cc4967
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: ConstrainLocalPosition
+  - hash:
+      serializedVersion: 2
+      Hash: 5afbad5264dd826e5ac935e9e5452311
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: VRIFGrabpointUpdater
+  - hash:
+      serializedVersion: 2
+      Hash: 762830273494fb453b28ab752ae3f66b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: GrabbableBezierLine
+  - hash:
+      serializedVersion: 2
+      Hash: 8c4033e5c0a8883f4ed08a7ffb3bc15e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: PoseableObject
+  - hash:
+      serializedVersion: 2
+      Hash: 1fb4c1f5d07b5be11e1a2263b0a16f08
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: ScaleBetweenPoints
+  - hash:
+      serializedVersion: 2
+      Hash: 4d08c9af6b7fb292c96534800ba5e6cd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: HandPose
+  - hash:
+      serializedVersion: 2
+      Hash: 5f85f80a8f2367c75d55a05c2d06f861
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: JointHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 7453f89b0ab1e3bfd8de3f8c69979329
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: BulletInsert
+  - hash:
+      serializedVersion: 2
+      Hash: cc6e9e430dafea659675a3bd07a4355a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: TeleportDestination
+  - hash:
+      serializedVersion: 2
+      Hash: 39c534c5a29fde725775cc3f440c336d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: Marker
+  - hash:
+      serializedVersion: 2
+      Hash: 50cc13f9df63ef395d73223727f7c3c2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: GrabbableHighlightMaterial
+  - hash:
+      serializedVersion: 2
+      Hash: 075b8da1794fe37ac9c396bbd789f35b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: LiquidWobble
+  - hash:
+      serializedVersion: 2
+      Hash: 73cab362159c486cd1af44692126225b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: JointBreaker
+  - hash:
+      serializedVersion: 2
+      Hash: d54232dc565d32f72f2f6005f16a0ed9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: IgnoreColliders
+  - hash:
+      serializedVersion: 2
+      Hash: 26883edcdc85297b2cad433f687b7d11
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: JoystickControl
+  - hash:
+      serializedVersion: 2
+      Hash: 24d70d503da36398905d218d2aca1565
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: CustomCenterOfMass
+  - hash:
+      serializedVersion: 2
+      Hash: 41d2e0adf70ca4f5703a21d38e8acd0a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: HandleHelper
+  - hash:
+      serializedVersion: 2
+      Hash: f13394bdd1ff8f46170ac75d3016198a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: GrabbableRingHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 638311eba3c09b3b3258e35cd7ab0732
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: SlidingDoorMover
+  - hash:
+      serializedVersion: 2
+      Hash: 5678df270c5e9fb610bb11d85a080fac
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: SnapZoneRingHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 118028f1dd1629021b25af669b3b7d66
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: VRUtils
+  - hash:
+      serializedVersion: 2
+      Hash: 36d8e3f19602b6f9d6fe64e456509d34
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: AmmoDispenser
+  - hash:
+      serializedVersion: 2
+      Hash: 7f9d0010bacfc3af826da3ff728ef108
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: Lever
+  - hash:
+      serializedVersion: 2
+      Hash: d41277fab4b72495f2fdc5436bcfa7f6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: RingHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FixNonUniformScale
+  - hash:
+      serializedVersion: 2
+      Hash: 5746e85f4a5961fcd437453bbf1a5142
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: FingerTipCollider
+  - hash:
+      serializedVersion: 2
+      Hash: 9f49dc93334a91c60cff43fe871fc2c0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: HandController
+  - hash:
+      serializedVersion: 2
+      Hash: 6d52ca06fbc92c5c909dd6e835145850
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: SteeringWheel
+  - hash:
+      serializedVersion: 2
+      Hash: e3f8f6bc8e8963cdd94fb8e0e8156597
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: DestroyObjectWithDelay
+  - hash:
+      serializedVersion: 2
+      Hash: 710390fcbaa139803468b91fa026a9a1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: RotateTowards
+  - hash:
+      serializedVersion: 2
+      Hash: 884d30685ffff5e63d9107ef03f4478c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: ControllerOffsetHelper
+  - hash:
+      serializedVersion: 2
+      Hash: fa1db0a67d419efe7ce38fd6bd68cc46
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: BoneMapping
+  - hash:
+      serializedVersion: 2
+      Hash: 367d0c4cc019f5a20b2fd13a4deef7b4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: GrabbableHighlight
+  - hash:
+      serializedVersion: 2
+      Hash: 479d823d5dbd69ad4da49a71f6581b8a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: FollowTransform
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: DestroyIfPlayMode
+  - hash:
+      serializedVersion: 2
+      Hash: 1a09ae06c60fe6ca7e6984c07a30544b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: IKDummy
+  - hash:
+      serializedVersion: 2
+      Hash: a8c086bac353b2a7464838568c950036
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: Projectile
+  - hash:
+      serializedVersion: 2
+      Hash: d2301ade2aed94483c447924dcbfd06d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: VREmulator
+  - hash:
+      serializedVersion: 2
+      Hash: 2d035cd5b9aa6cd7d3a5ef6ba88758fd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: LocomotionManager
+  - hash:
+      serializedVersion: 2
+      Hash: 3926f6f7ae289e7856fd5aab58ea5fdf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: DamageCollider
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: VRCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: Bullet
+  - hash:
+      serializedVersion: 2
+      Hash: 41aa742329f5612fb956ee7a195cdfcf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: GrabAction
+  - hash:
+      serializedVersion: 2
+      Hash: fdf66184f37e2fcf982084abca36e1f5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: Bow
+  - hash:
+      serializedVersion: 2
+      Hash: aa52ccb38c53522270dcca01a37123a3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: VRKeyboardKey
+  - hash:
+      serializedVersion: 2
+      Hash: a89a77bd58aab7c80bf915aa92d04a47
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: VRTextInput
+  - hash:
+      serializedVersion: 2
+      Hash: 11af8566d3165ec1810c3be0c5d5d73e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: Arrow
+  - hash:
+      serializedVersion: 2
+      Hash: 91dbf84e33bd0deb8b6caf0761a45b7c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: UIButtonCollider
+  - hash:
+      serializedVersion: 2
+      Hash: 1ff888de8d540c78df6ff4ade65b0a27
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: LineToTransform
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: CharacterYOffset
+  - hash:
+      serializedVersion: 2
+      Hash: 887afb72edecd67255e0bebdf437b66d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: TrackedDevice
+  - hash:
+      serializedVersion: 2
+      Hash: 61430d82d8a625f89220f4b689630423
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: HandJet
+  - hash:
+      serializedVersion: 2
+      Hash: 2d2780d1be3f88d17ac20a6627819a11
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: GrabbableHaptics
+  - hash:
+      serializedVersion: 2
+      Hash: a51de059501a05cfb19cd2ddb4e2565b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: SnapZoneScale
+  - hash:
+      serializedVersion: 2
+      Hash: 1ec80af9ebba1b02b879b89d209663cd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: Flashlight
+  - hash:
+      serializedVersion: 2
+      Hash: ec6552561a1034fcc4497fe8d0179d44
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: RemoteGrabber
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: ControllerModelSelector
+  - hash:
+      serializedVersion: 2
+      Hash: f862bff8d63f23f30b0da4a6761314af
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: CollisionSound
+  - hash:
+      serializedVersion: 2
+      Hash: fdc2c1022a3ca29d53e1f4dc2d3210ff
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: Waypoint
+  - hash:
+      serializedVersion: 2
+      Hash: 69f207b43ade609f77286652a1473460
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: HandleGFXHelper
+  - hash:
+      serializedVersion: 2
+      Hash: bec1105ad813bd45d7a50c203cbec785
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: SnapZone
+  - hash:
+      serializedVersion: 2
+      Hash: e7d33a041ad665085e51b623aebae9d8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: UIPointer
+  - hash:
+      serializedVersion: 2
+      Hash: 62d51884bd471f9f16baf6ed3de678e8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: DetachableLimb
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: FPSText
+  - hash:
+      serializedVersion: 2
+      Hash: f9c94ae679a00632e14bfe0d84f32e70
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: GrabPoint
+  - hash:
+      serializedVersion: 2
+      Hash: 5294fdf845439efb6fcf77f6432232bc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: PlayerRotation
+  - hash:
+      serializedVersion: 2
+      Hash: b441076d93621de1d87fabc55959e18e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: SceneLoader
+  - hash:
+      serializedVersion: 2
+      Hash: 66ec78f99fbaa00328a078eeb02421d1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: VRKeyboard
+  - hash:
+      serializedVersion: 2
+      Hash: d37db170e5c382faced14c94c582229a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: GrabbableUnityEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 45b7f5b399b51731a54a7f8bbe4238ce
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: SampleHandController
+  - hash:
+      serializedVersion: 2
+      Hash: dc5873496db32a28de7143a615dfd56e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: RotateWithHMD
+  - hash:
+      serializedVersion: 2
+      Hash: b315e048a58130e838e3d94638416f7d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: RaycastWeapon
+  - hash:
+      serializedVersion: 2
+      Hash: cdf882df1eedb0f033c1ba3fda2c96b4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: LaserSword
+  - hash:
+      serializedVersion: 2
+      Hash: 887afb72edecd67255e0bebdf437b66d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: XRTrackedPoseDriver
+  - hash:
+      serializedVersion: 2
+      Hash: 87ccca6f8978347650d8003d5da0e123
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: Tooltip
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: InvalidTeleportArea
+  - hash:
+      serializedVersion: 2
+      Hash: 53e658961ab72c8ecc6e6b243228f353
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: AmmoDisplay
+  - hash:
+      serializedVersion: 2
+      Hash: b253531d304ad5e896dfe4b9a1e900ed
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: Explosive
+  - hash:
+      serializedVersion: 2
+      Hash: d38a48d9673be5eb2f8dc8291bfe674a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: EditorHandle
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: AutoGrabGrabbable
+  - hash:
+      serializedVersion: 2
+      Hash: dbe6a8fe727d17926072aff833b7273f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: VRUISystem
+  - hash:
+      serializedVersion: 2
+      Hash: 81c870180b8a825501d9d6971700e111
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: LookAtTransform
+  - hash:
+      serializedVersion: 2
+      Hash: 88a13f2adfe8a85d0ad1e11df01345eb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: PlayerGravity
+  - hash:
+      serializedVersion: 2
+      Hash: 914bef995b526c3f9a76cec7b894ca5e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: SkeletonVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: b3633cadb86c7d969692f9c2a6a7b0b5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: ScaleMaterialHelper
+  - hash:
+      serializedVersion: 2
+      Hash: f564b9045cd879acdef653102e511f69
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: HingeHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 383c72cea2c9804359b8523609938a01
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: CharacterIK
+  - hash:
+      serializedVersion: 2
+      Hash: 47ab35134bb5477596798c0ce1acc2f1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: ProjectileLauncher
+  - hash:
+      serializedVersion: 2
+      Hash: 4c02734b91bb8d0139c58a6eb681df52
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: GrabberArea
+  - hash:
+      serializedVersion: 2
+      Hash: 8060b07899b2c59daae923b7e2c1ded6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: JoystickVehicleControl
+  - hash:
+      serializedVersion: 2
+      Hash: 96993f48d558a59151f656eb10941838
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: AutoPoser
+  - hash:
+      serializedVersion: 2
+      Hash: 23f456635587e32c52d5930830290c60
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: HandPoser
+  - hash:
+      serializedVersion: 2
+      Hash: 8fcac12a3dbda07a1ed0940f6ae979dc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: GrappleShot
+  - hash:
+      serializedVersion: 2
+      Hash: 252a6dfab5361f8ec75043bd978ac1c4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: HandModelSwitcher
+  - hash:
+      serializedVersion: 2
+      Hash: e96f833037b1decee97bb358751441a5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: TimeController
+  - hash:
+      serializedVersion: 2
+      Hash: d3544e1ddb8963c867f492c2396e6b2b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: HandPoseDefinitions
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: CharacterConstraint
+  - hash:
+      serializedVersion: 2
+      Hash: bfc37f55a71f75ca35d5599602cec70f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: Grabbable
+  - hash:
+      serializedVersion: 2
+      Hash: bad305720f6b4f18c12947567d7af361
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: PlayerScaler
+  - hash:
+      serializedVersion: 2
+      Hash: f362c86fa7262a4cd157be6f44193d10
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: InputBridge
+  - hash:
+      serializedVersion: 2
+      Hash: 3261e20ee62d2b75de01f78180150d40
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: HandCollision
+  - hash:
+      serializedVersion: 2
+      Hash: 91f597d694f3c9e3e1f28d19ea179a3a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: TeleportPlayerOnEnter
+  - hash:
+      serializedVersion: 2
+      Hash: ed7af621e80c03d08bf4aea835a1c112
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: SnapZoneOffset
+  - hash:
+      serializedVersion: 2
+      Hash: 35305f607f78a3304f87d6a7431efbd1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: BulletHole
+  - hash:
+      serializedVersion: 2
+      Hash: f20f835619075cbdb3b10dccbfe2efdf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: PlayerClimbing
+  - hash:
+      serializedVersion: 2
+      Hash: 528ecc20e34351044d598bca82d91a14
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: ToggleActiveOnInputAction
+  - hash:
+      serializedVersion: 2
+      Hash: 51fa55458ad2e06654611d1d46d1659a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: GrabPointTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: bc4074c18404999419770eb219f69b7e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: HandRepresentationHelper
+  - hash:
+      serializedVersion: 2
+      Hash: df96173c284a7dacaf5f917fc3e25280
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: ScreenFader
+  - hash:
+      serializedVersion: 2
+      Hash: 2eb3b7ce36190a9853d8f260d9bd3a97
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: ReturnToSnapZone
+  - hash:
+      serializedVersion: 2
+      Hash: 28ed10079d20f96e91d44b47307192fa
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: DemoScript
+  - hash:
+      serializedVersion: 2
+      Hash: 24019e6467d2e280af3a2847beec0056
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: PlaySoundOnGrab
+  - hash:
+      serializedVersion: 2
+      Hash: 71b13ac6e4331581e32520ac5636d8f3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: HeadCollisionMove
+  - hash:
+      serializedVersion: 2
+      Hash: 2c33075cb2fe01e7921b0f40aeb2c663
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: FollowRigidbody
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: RagdollHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 3724955ef76b5d77b50759a4dd231446
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: CalibratePlayerHeight
+  - hash:
+      serializedVersion: 2
+      Hash: 52f5b28f243f155f1cb272ad04715070
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: DemoCube
+  - hash:
+      serializedVersion: 2
+      Hash: 140a1423f5bea59680e521fbcab0429a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: SmoothLocomotion
+  - hash:
+      serializedVersion: 2
+      Hash: 233443f387a7063c30b6f53a851e778a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: Grabber
+  - hash:
+      serializedVersion: 2
+      Hash: a92377d7c1d4c50e4d84f61bfa901c12
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: LaserPointer
+  - hash:
+      serializedVersion: 2
+      Hash: ceb079fe123f4a95bddd256557e59b32
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 0e4b799a5db8c785870428d9acd809e7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: HandPoseBlender
+  - hash:
+      serializedVersion: 2
+      Hash: 88da64def90707f4cd144a4c6aa093f9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: UICanvasGroup
+  - hash:
+      serializedVersion: 2
+      Hash: b55a964abf6ffe5e5d1e050c14e5e879
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: PlayerTeleport
+  - hash:
+      serializedVersion: 2
+      Hash: afed3ae866b84c6e3a66a354ccf1a936
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: PointerEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 61bf3f80857fb0a50c7812be85e45271
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: MovingPlatform
+  - hash:
+      serializedVersion: 2
+      Hash: cf9b7416a3ca046dc5498ff6d808feb5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: VelocityTracker
+  - hash:
+      serializedVersion: 2
+      Hash: bfc37f55a71f75ca35d5599602cec70f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: Climbable
+  - hash:
+      serializedVersion: 2
+      Hash: 383e7340ba9d467da3595be9587c8de8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: MoveToWaypoint
+  - hash:
+      serializedVersion: 2
+      Hash: 72d236ec048fd822ae61f339e32424a7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: MagazineSlide
+  - hash:
+      serializedVersion: 2
+      Hash: 72f86a10fa4d6e483cb66cecc510305c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: DoorHelper
+  - hash:
+      serializedVersion: 2
+      Hash: ee9236254253af2f9a77742e90629804
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: HandPhysics
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: ArrowGrabArea
+  - hash:
+      serializedVersion: 2
+      Hash: 20dc24616b6ef6324ca1c1bdf50c5ed3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: StaticBatch
+  - hash:
+      serializedVersion: 2
+      Hash: 24772f3619759e0c296764e408ce2bc0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: Damageable
+  - hash:
+      serializedVersion: 2
+      Hash: ec084ac4cdaf8110a5c9718cba20f748
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: PunctureCollider
+  - hash:
+      serializedVersion: 2
+      Hash: 0a3852a15ee4dd1758142277883bb335
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: HandModelSelector
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: UITrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 3b6e862a2bf2d06ddf2ec974a24675f2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: WeaponSlide
+  - hash:
+      serializedVersion: 2
+      Hash: e5d00a1dedb50df3649f5053884f422b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: GrabbablesInTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 0489e4cfb265eb277143211a0cd2422e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: PlayerMovingPlatformSupport
+  - hash:
+      serializedVersion: 2
+      Hash: 38be662491503337db27989ce9bdbcac
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: DrawerSound
+  - hash:
+      serializedVersion: 2
+      Hash: 16c7f8d7c623971e709c8487d79058b6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: BowArm
+  - hash:
+      serializedVersion: 2
+      Hash: 9c5125688ced3d712126bc8ae940cd5e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: VehicleController
+  - hash:
+      serializedVersion: 2
+      Hash: cce1d1c67b5028813a170dab3954eac4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: HeadCollisionFade
+  platform: 13
+  scenePathNames:
+  - Assets/BNG Framework/Scenes/XR Demo.unity
+  playerPath: E:/UnityProject/MCVRGame/BuildAPK/Test.apk
